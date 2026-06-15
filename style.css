@@ -31,9 +31,32 @@
     padding: 35px;
     position: sticky;
     top: 0;
+    color: #d0d0d0;
     }
    
     nav {
-    display: flex;
+    display: flex;  
     gap: 30px;
+    }
+
+    nav a {
+    text-decoration: none;  
+    color: #d0d0d0;
+    }
+
+    nav a:hover {
+    color: #00e5ff;
+}
+
+    .hero {
+    text-align: center;
+}
+
+        .hero-title {
+    color: #00e5ff;
+}
+.logo {
+    color: #00e5ff;
+    text-decoration: none;
+    font-size: 24px;
 }
